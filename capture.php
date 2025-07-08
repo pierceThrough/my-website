@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     fwrite($file, "--------------------\n");
     fclose($file);
 
-    header("Location: https://Kiboot.github.io/kiboot.github.io/");
+    header("Location:");
     exit();
 }
 ?>

